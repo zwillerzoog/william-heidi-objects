@@ -39,5 +39,21 @@ updateObject.foo = "foo";
   return person;
 }
 
+//Deleter 
+
+function keyDeleter(obj) {
+	delete obj.foo;					// why do we use the argument instead of the Object(sampleObj)
+	delete obj.bar;
+	return obj;
+}
+
+var sampleObj = {
+  foo: 'foo',
+  bar: 'bar',
+  bizz: 'bizz',
+  bang: 'bang'
+};
+
+
 
 
