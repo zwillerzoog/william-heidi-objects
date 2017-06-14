@@ -38,3 +38,61 @@ let food = {
 }
 
 console.log(food); //unexpected token at line 5
+
+//4. Arrays of objects
+
+
+const jobs = [
+
+{
+	name: 'Homer',
+	jobTitle: 'Engineer',
+},
+
+{
+	name: 'Peter',
+	jobTitle: 'Taster',
+},
+
+{
+	name: 'Bob',
+	jobTitle: 'Cook',
+},
+
+];
+
+jobs.forEach(function(jobs) {
+	console.log(
+		jobs.name + ' is a(n) ' + jobs.jobTitle);
+});
+
+//5. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
