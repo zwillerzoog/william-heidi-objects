@@ -66,9 +66,38 @@ jobs.forEach(function(jobs) {
 		jobs.name + ' is a(n) ' + jobs.jobTitle);
 });
 
-//5. 
+//5. Properties 
 
+const jobs = [
 
+{
+	name: 'Homer',
+	jobTitle: 'Engineer',
+	boss: 'Mr. Smithers',
+},
+
+{
+	name: 'Peter',
+	jobTitle: 'Taster',
+	boss: 'Stewie'
+},
+
+{
+	name: 'Bob',
+	jobTitle: 'Cook',
+	boss: 'Mr. Biggs'
+},
+
+{
+	name: 'Mr. Biggs',
+	jobTitle: 'Owner'
+}
+
+];
+
+jobs.forEach(function(jobs) {
+	console.log(`${jobTitle} ${name} reports to ${boss}.`);
+});
 
 
 
