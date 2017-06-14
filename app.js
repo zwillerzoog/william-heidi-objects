@@ -22,3 +22,22 @@ updateObject.foo = "foo";
   updateObject.bang = "bang";
   
   console.log(updateObject);
+
+
+  //Self Reference
+
+  function personMaker() {
+  var person = {
+    firstName: 'Paul',
+    lastName: 'Jones',
+    // replace `null` with a function that uses self reference to return
+    // full name
+    fullName: function(){
+    	return this.firstName+" "+this.lastName;  //ask why do we need to return this vs console.log
+    }
+  };
+  return person;
+}
+
+
+
