@@ -35,3 +35,29 @@ studentData.forEach(function(students){
 // }
 
 //this creates a new array instead of rewriting the one we are working on 
+
+//Find by ID
+
+// you can pass in `scratchData` to test out `findByid`
+// your function
+var scratchData = [
+  {id: 22, foo: 'bar'},
+  {id: 28, foo: 'bizz'},
+  {id: 19, foo: 'bazz'}
+];
+
+function findById(items, idNum) {
+ for (let key in scratchData) {
+  console.log(scratchData[key]);
+ }
+ return findById();
+}
+
+
+
+
+
+
+
+
+// 
