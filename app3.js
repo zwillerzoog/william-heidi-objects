@@ -105,8 +105,34 @@ jobs.forEach(function(jobs) {
 });
 
 
+//6. Cracking The Code
 
+let codeToBreak = 'craft block argon meter bells brown croon droop';
+codeToBreak = codeToBreak.split(" ");
+//console.log(codeToBreak);
 
+const codeCracker = {
+	a: 2,
+	b: 3,
+	c: 4,
+	d: 5
+}
+
+//console.log (codeTobreak(0,1))
+
+function decode(word) {
+
+	for(let i = 0; i < codeToBreak.length; i++) {
+		if (codeToBreak[i][0] === a) {
+	//	  console.log(codeToBreak.charAt(2));
+		}
+		else {
+//		  console.log("error");
+		}
+//		console.log(decode);
+	}
+	
+}
 
 
 
