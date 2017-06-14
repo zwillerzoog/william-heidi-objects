@@ -96,8 +96,14 @@ const jobs = [
 ];
 
 jobs.forEach(function(jobs) {
-	console.log(`${jobTitle} ${name} reports to ${boss}.`);
+	if (jobs.boss === true) {
+	console.log(jobs.jobTitle +" "+ jobs.name + " reports to " + jobs.boss);
+}
+	else {
+	console.log(jobs.jobTitle +" "+ jobs.name + " doesn't report to anybody.");	
+	}
 });
+
 
 
 
